@@ -7,7 +7,7 @@ def bfs(graph, start):
     the neighbor nodes at the present depth level before moving on to nodes at the next depth level.
     """
     visited = set()
-    q = deque(start)
+    q = deque([start])
 
     visited.add(start)
 
